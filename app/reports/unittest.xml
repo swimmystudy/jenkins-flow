@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="All Model related class tests" tests="5" assertions="5" failures="0" errors="2" time="0.134142">
+    <testsuite name="CategoryTestCase" file="/projects_php/cakeblogdemo/Test/Case/Model/CategoryTest.php" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+    <testsuite name="PostTestCase" file="/projects_php/cakeblogdemo/Test/Case/Model/PostTest.php" tests="4" assertions="4" failures="0" errors="2" time="0.106131">
+      <testcase name="user_idはAuthComponentから取得して保存" class="PostTestCase" file="/projects_php/cakeblogdemo/Test/Case/Model/PostTest.php" line="45" assertions="0" time="0.039590">
+        <error type="CakeException">PostTestCase::user_idはAuthComponentから取得して保存
+CakeException: SaveFailed...
+
+/projects_php/cakeblogdemo/Model/Post.php:161
+/projects_php/library/cakephp/lib/Cake/Model/Model.php:1586
+/projects_php/cakeblogdemo/Test/Case/Model/PostTest.php:52
+/projects_php/library/cakephp/lib/Cake/TestSuite/CakeTestCase.php:78
+/projects_php/library/cakephp/lib/Cake/TestSuite/CakeTestRunner.php:56
+/projects_php/library/cakephp/lib/Cake/TestSuite/CakeTestSuiteCommand.php:110
+/projects_php/library/cakephp/lib/Cake/Console/Command/TestsuiteShell.php:270
+/projects_php/library/cakephp/lib/Cake/Console/Command/TestsuiteShell.php:255
+/projects_php/library/cakephp/lib/Cake/Console/Shell.php:389
+/projects_php/library/cakephp/lib/Cake/Console/ShellDispatcher.php:177
+/projects_php/library/cakephp/lib/Cake/Console/ShellDispatcher.php:69
+/projects_php/library/cakephp/lib/Cake/Console/cake.php:24
+</error>
+      </testcase>
+      <testcase name="保存のテスト" class="PostTestCase" file="/projects_php/cakeblogdemo/Test/Case/Model/PostTest.php" line="60" assertions="0" time="0.023465">
+        <error type="CakeException">PostTestCase::保存のテスト
+CakeException: SaveFailed...
+
+/projects_php/cakeblogdemo/Model/Post.php:161
+/projects_php/library/cakephp/lib/Cake/Model/Model.php:1586
+/projects_php/cakeblogdemo/Test/Case/Model/PostTest.php:72
+/projects_php/library/cakephp/lib/Cake/TestSuite/CakeTestCase.php:78
+/projects_php/library/cakephp/lib/Cake/TestSuite/CakeTestRunner.php:56
+/projects_php/library/cakephp/lib/Cake/TestSuite/CakeTestSuiteCommand.php:110
+/projects_php/library/cakephp/lib/Cake/Console/Command/TestsuiteShell.php:270
+/projects_php/library/cakephp/lib/Cake/Console/Command/TestsuiteShell.php:255
+/projects_php/library/cakephp/lib/Cake/Console/Shell.php:389
+/projects_php/library/cakephp/lib/Cake/Console/ShellDispatcher.php:177
+/projects_php/library/cakephp/lib/Cake/Console/ShellDispatcher.php:69
+/projects_php/library/cakephp/lib/Cake/Console/cake.php:24
+</error>
+      </testcase>
+      <testcase name="ユーザーIDが取得できなければException" class="PostTestCase" file="/projects_php/cakeblogdemo/Test/Case/Model/PostTest.php" line="79" assertions="1" time="0.026086"/>
+      <testcase name="timeCondition" class="PostTestCase" file="/projects_php/cakeblogdemo/Test/Case/Model/PostTest.php" line="98" assertions="3" time="0.016990"/>
+    </testsuite>
+    <testsuite name="TagTestCase" file="/projects_php/cakeblogdemo/Test/Case/Model/TagTest.php" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+    <testsuite name="UserTestCase" file="/projects_php/cakeblogdemo/Test/Case/Model/UserTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.028011">
+      <testcase name="パスワードはハッシュして保存" class="UserTestCase" file="/projects_php/cakeblogdemo/Test/Case/Model/UserTest.php" line="43" assertions="1" time="0.028011"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
