@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <phpunit
-    bootstrap="Test/bootstrap.php"
+    bootstrap="app/Test/bootstrap.php"
 >
     <php>
         <server name="SERVER_NAME" value="example.com" />
