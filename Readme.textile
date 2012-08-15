@@ -1,8 +1,31 @@
 h1. ブログアプリのサンプル
 
+h3. 必要なもの
 
-テーブル作成
-$cake schema create
-または
-db.sqlを実行してください。
+Sqlite3
+
+PHP5.2 >
+
+PHP PDO Sqlite
+
+
+h3. インストールの例
+
+
+ドキュメントルート以下で、
+
+	$git clone git://github.com/swimmystudy/jenkins-flow.git
+
+http://localhost/jenkins-flow/
+
+にアクセスすれば確認できると思います。
+
+
+h3. テストの実行
+
+ダウンロードしたフォルダに移動
+	$cd jenkins-flow
+	$lib/Cake/Console/cake testsuite app AllTests --stderr
+
+で確認できると思います。
 

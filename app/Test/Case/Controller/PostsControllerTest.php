@@ -182,7 +182,7 @@ class PostsControllerTestCase extends CakeTestCase {
 		$expects = array(
 		'Post.subject LIKE' => '%テスト検索%',
 		0 => array(
-			0 => 'Post.id in (SELECT `Tag`.`id` FROM `blog_tags` AS `Tag`   WHERE `Tag`.`name` = \'php\')',
+			0 => 'Post.id in (SELECT "Tag"."id" FROM "blog_tags" AS "Tag"   WHERE "Tag"."name" = \'php\')',
 		),
 		'Post.is_publish' => 1,
 		'Post.created BETWEEN ? AND ?' => array(
@@ -225,7 +225,7 @@ class PostsControllerTestCase extends CakeTestCase {
 		$expects = array(
 		'Post.subject LIKE' => '%&lt;h1&gt;テスト検索&lt;/h1&gt;%',
 		0 => array(
-			0 => 'Post.id in (SELECT `Tag`.`id` FROM `blog_tags` AS `Tag`   WHERE `Tag`.`name` = \'php\')',
+			0 => 'Post.id in (SELECT "Tag"."id" FROM "blog_tags" AS "Tag"   WHERE "Tag"."name" = \'php\')',
 		),
 		'Post.is_publish' => 1,
 		'Post.created BETWEEN ? AND ?' => array(
