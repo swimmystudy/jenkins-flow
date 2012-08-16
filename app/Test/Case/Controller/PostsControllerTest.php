@@ -352,7 +352,6 @@ class PostsControllerTestCase extends CakeTestCase {
 				'lft' => NULL,
 				'rght' => NULL,
 				'name' => 'PHP',
-				'post_count' => '0',
 				'PostsCategory' => array(
 					'id' => '2',
 					'post_id' => '4',
@@ -364,7 +363,7 @@ class PostsControllerTestCase extends CakeTestCase {
 				array(
 				'id' => '1',
 				'name' => 'タグ1',
-				'post_count' => '0',
+				'post_count' => NULL,
 				'PostsTag' => array(
 					'id' => '2',
 					'post_id' => '4',

@@ -8,7 +8,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => '',
 		'password' => '',
-		'database' => 'db/database.sqlite3',
+		'database' => 'db/application.db',
 		'prefix' => 'blog_',
 	);
 
@@ -18,7 +18,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => '',
 		'password' => '',
-		'database' => 'db/database_test.sqlite3',
+		'database' => 'db/application_test.db',
 		'prefix' => 'blog_',
 	);
 /**
