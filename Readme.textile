@@ -26,6 +26,8 @@ h3. テストの実行
 ダウンロードしたフォルダに移動
 <code>
 $cd jenkins-flow
+</code>
+<code>
 $lib/Cake/Console/cake testsuite app AllTests --stderr
 </code>
 で確認できると思います。
