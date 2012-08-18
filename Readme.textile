@@ -13,9 +13,9 @@ h3. インストールの例
 
 
 ドキュメントルート以下で、
-
+<pre>
 	$git clone git://github.com/swimmystudy/jenkins-flow.git
-
+</pre>
 http://localhost/jenkins-flow/
 
 にアクセスすれば確認できると思います。
@@ -24,8 +24,9 @@ http://localhost/jenkins-flow/
 h3. テストの実行
 
 ダウンロードしたフォルダに移動
+<pre>
 	$cd jenkins-flow
 	$lib/Cake/Console/cake testsuite app AllTests --stderr
-
+</pre>
 で確認できると思います。
 
